@@ -51,7 +51,7 @@ $(function () {
                     </a>
                 `)
                     $('#page2ranking').append($ramking)
-                    $("#lastesMusicLoading").remove()
+                    $("#lastesMusicLoading2").remove()
                 })
 
                 // let items = response;
