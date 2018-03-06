@@ -10,34 +10,33 @@
 </head>
 <body>
 <div class="head">
-    <div style=" background-image: url(//p1.music.126.net/8UlHDv3_ynDCsz4TC-Raxw==/109951163160241235.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp)">
-        <img src="//p1.music.126.net/8UlHDv3_ynDCsz4TC-Raxw==/109951163160241235.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp">
+    <div class="headBgc">
+        <img class="bgcImg" src="//p1.music.126.net/8UlHDv3_ynDCsz4TC-Raxw==/109951163160241235.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp">
         <span>歌单</span>
         <h3>无与伦比</h3>
-        <img src="" alt="头像">
+        <img class="headImg" src="//p1.music.126.net/8UlHDv3_ynDCsz4TC-Raxw==/109951163160241235.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp" >
         <a href="#">周杰伦</a>
     </div>
 
-
-    <div>标签: 华语 流行</div>
-    <div>
-        简介：著名歌手，音乐人，词曲创作人，编曲及制作人，MV及电影导演。新世纪华语歌坛领军人物，中国风歌曲始祖，
-        被时代周刊誉为“亚洲猫王”，是2000年后亚洲流行乐坛最具革命性与指标性的创作歌手，亚洲销量超过3100万张，
-        有“亚洲流行天王”之称，开启华语乐坛“R&amp;B时代”与“流行乐中国风”的先河，
-        周杰伦的出现打破了亚洲流行乐坛长年停滞不前的局面，为亚洲流行乐坛翻开了新的一页，
-        是华语乐坛真正把R&amp;B提升到主流高度的人物，引领华语乐坛革命整十年，
-        改写了华语乐坛的流行方向。
+    <div class="label">标签: 华语 流行</div>
+    <div class="summary">
+        简介：著名歌手，音乐人，词曲创作人，编曲及制作人，MV及电影导演。有“亚洲流行天王”之称.
     </div>
-    <div>歌曲列表</div>
+    <div class="songList">歌曲列表</div>
 
-    <a href="#">
-        <div class="songs">
-            <div class="song1">告白气球</div>
-            <div class="song2">周杰伦--告白气球</div>
+    <div id="songLists">
+        <!-- JS动态生成歌单-->
+    </div>
+
+    <div class="favoriteSongList">
+        <div class="favoriteSongList2">
+            <img class="qwe" src="./img/favicon.png" alt="123">
+            <span>收藏歌单</span>
         </div>
-        <h3 class="orderNumber">01</h3>
-        <img src="./img/playmini.png" alt="">
-    </a>
+    </div>
 </div>
+
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="./JS/SongList.js"></script>
 </body>
 </html>
