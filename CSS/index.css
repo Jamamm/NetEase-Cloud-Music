@@ -4,9 +4,11 @@
     box-sizing: border-box;
     list-style: none;
     font-weight: normal;
-
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 *::before, *::after {
     box-sizing: border-box;
 }
@@ -133,7 +135,7 @@ body {
     color: #888;
 }
 
-.lastesMusic > ul > li h3 {
+.lastesMusic > ul > li h3{
     font-size: 4.52vw;
 }
 
@@ -148,7 +150,7 @@ body {
 }
 
 .foot {
-text-align: center;
+    text-align: center;
 }
 
 
@@ -182,3 +184,78 @@ text-align: center;
     padding-bottom: 3vw;
 
 }
+
+.tabContent >li{
+    display: none;
+}
+.tabContent >li.active{
+    display: block;
+}
+
+/* CSS雪碧图 热歌榜部分*/
+.box{
+    width:100%;
+    height:40vw;
+    background-image: url("//p533w93qa.bkt.clouddn.com/hot_music_bg_2x.jpg");
+    background-size: contain;
+}
+.box > span{
+    display: inline-block;
+    width: 40vw;
+    height: 20vw;
+    background-image: url(//p533w93qa.bkt.clouddn.com/indexIcon.png);
+    background-repeat: no-repeat;
+    margin-top: 7vw;
+    margin-left: 5.5vw;
+
+}
+.icon1{
+    background-position: -5.5vw -6.9vw;
+    background-size: 43.67vw;
+}
+.tabContent .hotSongs {
+    position: relative;
+}
+.hotSongs{
+    margin: 0 auto;
+}
+.tabContent  .updated{
+    color: white;
+    position: absolute;
+    transform: translateY(-11vw);
+    margin-left: 6.2vw;
+}
+.hotSongs .songs{
+    padding-top: 2vw;
+    margin-left: 15vw;
+    position: relative;
+    border-bottom: 1px solid #e2e2e2;
+}
+.hotSongs .songs .song1{
+    font-size: 1.3em;
+    margin-bottom: 1vw;
+}
+.hotSongs .songs .song2{
+    font-size: 0.8em;
+    margin-bottom: 1vw;
+}
+.hotSongs h3{
+    position: absolute;
+    transform: translateY(-10.4vw);
+    margin-left: 3vw;
+    font-size: 1.4em;
+}
+.hotSongs img{
+    height: 7vw;
+    position: absolute;
+    transform: translateY(-10.4vw);
+    margin-left: 88vw;
+
+}
+
+.hotSongs .foot{
+    margin: 4vw auto;
+}
+
+
+

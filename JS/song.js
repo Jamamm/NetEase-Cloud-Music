@@ -10,11 +10,7 @@ $(function () {
         initPlayer.call(undefined, url);
         initText(name, lyric)
         parseLyric.call(undefined,lyric)
-
-
-
-
-    });
+    })
 
     function initText(name, lyric) {
         $('.song-description> h1').text(name)
@@ -39,7 +35,7 @@ $(function () {
                 $('.disc-container').addClass('playing')
             }
         })
-        setInterval(()=> {
+
              // 当前播放的秒数，然后把它变成分秒00:00:00的形式
             let seconds = audio.currentTime
             let munites = ~~(seconds / 60)
@@ -60,11 +56,10 @@ $(function () {
                 let top = $whichLine.offset().top
                 let linesTop = $('.lines').offset().top
                 let delta = top - linesTop - $('.lyric').height()/3
-                console.log(delta)
                 $('.lines').css('transform',`translateY(-${delta}px)`)  //这里找了bug找了半天，你可长点心吧（``和''分不清吗！！）！！！
 
             }
-        },500)
+
     }
 
     //当前播放的秒数，把它变成分秒00:00:00的形式

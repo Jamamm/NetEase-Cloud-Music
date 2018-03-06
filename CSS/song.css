@@ -10,7 +10,8 @@
   }
 }
 
-.page{display: flex; 
+.page{
+  display: flex;
   flex-direction: column; 
   height: 100vh;
   background: transparent url(http://p4.music.126.net/KLiW3-5jPDfhPtm7DfyxEg==/109951163111161587.jpg);

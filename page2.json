@@ -1,0 +1,91 @@
+[
+  {
+    "id": "1",
+    "ranking": "01",
+    "url":"http://p51uvjqkg.bkt.clouddn.com/%E5%8D%8A%E5%B2%9B%E9%93%81%E7%9B%92.m4a" ,
+    "name":"半岛铁盒",
+    "singer":"周杰伦",
+    "album":"八度空间"
+  },
+
+  {
+    "id": "2",
+    "ranking": "02",
+    "url":"http://p51uvjqkg.bkt.clouddn.com/%E5%91%8A%E7%99%BD%E6%B0%94%E7%90%83.m4a" ,
+    "name":"告白气球",
+    "singer":"周杰伦",
+    "album":"周杰伦的床边故事"
+  },
+
+  {
+    "id": "3",
+    "ranking": "03",
+    "url":"http://p51uvjqkg.bkt.clouddn.com/%E5%AE%89%E9%9D%99.m4a" ,
+    "name":"安静",
+    "singer":"周杰伦",
+    "album":"范特西"
+  },
+
+  {
+    "id": "4",
+    "ranking": "04",
+    "url":"http://p51uvjqkg.bkt.clouddn.com/%E6%99%B4%E5%A4%A9.m4a" ,
+    "name":"晴天",
+    "singer":"周杰伦",
+    "album":"叶惠美"
+  },
+
+  {
+    "id": "5",
+    "ranking": "05",
+    "url":"http://p51uvjqkg.bkt.clouddn.com/%E7%AD%89%E4%BD%A0%E4%B8%8B%E8%AF%BE.m4a" ,
+    "name":"等你下课",
+    "singer":"周杰伦",
+    "album":"等你下课"
+  },
+
+  {
+    "id": "6",
+    "ranking": "06",
+    "url":"http://p51uvjqkg.bkt.clouddn.com/%E7%AE%80%E5%8D%95%E7%88%B1.m4a" ,
+    "name":"简单爱",
+    "singer":"周杰伦",
+    "album":"范特西"
+  },
+
+  {
+    "id": "7",
+    "ranking": "07",
+    "url":"http://p51uvjqkg.bkt.clouddn.com/%E7%AE%97%E4%BB%80%E4%B9%88%E7%94%B7%E4%BA%BA.m4a" ,
+    "name":"算什么男人",
+    "singer":"周杰伦",
+    "album":"哎呦，不错哦"
+  },
+
+  {
+    "id": "8",
+    "ranking": "08",
+    "url":"http://p51uvjqkg.bkt.clouddn.com/%E4%B8%83%E6%9C%88%E4%B8%8A--Jam.m4a" ,
+    "name":"七月上",
+    "singer":"Jam",
+    "album":"七月上"
+  },
+
+  {
+    "id": "9",
+    "ranking": "09",
+    "url":"http://p51uvjqkg.bkt.clouddn.com/%E5%8D%97--Jam.m4a" ,
+    "name":"南",
+    "singer":"Jam",
+    "album":"南"
+  },
+
+  {
+    "id": "10",
+    "ranking": "10",
+    "url":"http://p51uvjqkg.bkt.clouddn.com/%E5%B7%AE%E4%B8%89%E5%B2%81--Jam.m4a" ,
+    "name":"差三岁",
+    "singer":"Jam",
+    "album":"差三岁"
+  }
+]
