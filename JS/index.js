@@ -36,7 +36,7 @@ $(function () {
             return
         }
         if (index === 1) {
-            $.get('../page2.json').then((response) => {
+            $.get('./page2.json').then((response) => {
 
                 let items = response;
                 items.forEach((i) => {
@@ -57,7 +57,7 @@ $(function () {
             })
         } else if (index === 2) {
             return
-            $.get('../page3.json').then((response) => {
+            $.get('./page3.json').then((response) => {
                 $li.text(response.content)
                 $li.attr('data-download', 'yes')
             })
