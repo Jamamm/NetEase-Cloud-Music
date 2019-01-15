@@ -1,6 +1,6 @@
 # 移动端网易云音乐
 
-该项目是对移动端网易云音乐页面的还原。[点击预览]( https://jamamm.github.io/NetEase-Cloud-Music/index.html "点击预览")
+该项目是对移动端网易云音乐页面的还原。[点击预览]( https://jamccc.github.io/NetEase-Cloud-Music/ "点击预览")
 
 ## 功能介绍
 1. 点击导航栏切换页面 
